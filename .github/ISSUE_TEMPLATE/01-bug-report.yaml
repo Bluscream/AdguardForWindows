@@ -104,7 +104,6 @@ body:
       label: Annoyances
       multiple: true
       options:
-        - AdGuard Annoyances filter
         - AdGuard Cookie Notices filter
         - AdGuard Popups filter
         - AdGuard Mobile App Banners filter
@@ -127,7 +126,6 @@ body:
         - Phishing URL Blocklist
         - Scam Blocklist by DurableNapkin
         - uBlock Origin – Badware risks
-        - NoCoin Filter List
     validations:
       required: false
 
@@ -138,8 +136,8 @@ body:
       multiple: true
       options:
         - Filter unblocking search ads and self-promotion
-        - Fanboy's Anti-thirdparty Fonts
         - AdGuard Experimental filter
+        - Fanboy's Anti-thirdparty Fonts
     validations:
       required: false
 
@@ -264,12 +262,13 @@ body:
         - Self-destruction of third-party cookies
         - Self-destruction of first-party cookies
         - Disable cache for third-party requests
+        - Block Etag and If-None-Match headers
         - Block the third-party Authorization header
         - Block WebRTC
         - Block Push API
         - Block Location API
-        - Block Flash
         - Disable Windows Telemetry
+        - Disable Windows Recall
         - Turn off Advertising ID
         - Disable Microsoft Defender automatic samples submission
         - Disable WAP Push Message Routing Service
